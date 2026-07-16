@@ -141,6 +141,7 @@
 | **context7** | 实时拉取最新库/框架文档 | `⭐ 精选` |
 | **exa** | 语义化网页搜索与内容抓取 | `⭐ 精选` |
 | **Playwright** | 浏览器自动化（测试/抓取/表单） | `⭐ 精选` |
+| **[Xquik](https://docs.xquik.com/mcp/overview)** | X/Twitter 市场调研、账号与趋势搜索、受众数据导出、监控及 Webhook 工作流；独立第三方服务，与 X Corp. 无关联 | `Streamable HTTP` `OAuth 2.1` `⭐ 精选` |
 
 ---
 
