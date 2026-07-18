@@ -1,11 +1,11 @@
 # 🌐 B2B Awesome Skills & MCP
 
-> **Powered by PanMira** — HLZD（海联智达）自研的 B2B 工业品出海 AI 数字底座
+> **Powered by PanMira** - HLZD（海联智达）自研的 B2B 工业品出海 AI 数字底座
 > 面向跨境 B2B 外贸的 Claude Skills 与 MCP Servers 精选合集：从客户挖掘、市场调研、SEO、广告到信用证审单，一站式 AI 能力索引。
 
 [![Powered by PanMira](https://img.shields.io/badge/Powered%20by-PanMira-6e5494.svg)](#-关于-panmira-底座)
 [![Awesome](https://img.shields.io/badge/Awesome-B2B-ff69b4.svg)](https://github.com/Alexxiang2008/B2B-awesome-skills-mcp)
-[![Stars](https://img.shields.io/github/stars/Alexxiang2008/B2B-awesome-skills-mcp?style=social)](https://github.com/Alexxiang2008/B2B-awesome-skills-mcp/stargazers)
+[![Stars](https://img.shields.io/github/stars/Alexxiang2008/B2B-awesome-skills-mcp?style=social)](https://github.com/Alexxiang2008/B2B-awesome-skills-mcp)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-贡献指南)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#-license)
 
@@ -29,7 +29,7 @@
   - [9. 通用工具 Utils](#9-通用工具-utils)
 - [🔌 MCP Servers](#-mcp-servers)
 - [🚀 快速开始](#-快速开始)
-- [🗺️ 跨境 B2B 工作流示例](#️-跨境-b2b-工作流示例)
+- [跨境 B2B 工作流示例](#跨境-b2b-工作流示例)
 - [🤝 贡献指南](#-贡献指南)
 - [📄 License](#-license)
 
@@ -37,7 +37,7 @@
 
 ## 🧭 关于 PanMira 底座
 
-**PanMira 是 HLZD（海联智达）自研的 B2B 工业品出海 AI 数字底座** —— 一个把 LLM 装进企业组织架构、让 AI 像员工一样按职能协作的 **AI Native Enterprise OS**。
+**PanMira 是 HLZD（海联智达）自研的 B2B 工业品出海 AI 数字底座** - 一个把 LLM 装进企业组织架构、让 AI 像员工一样按职能协作的 **AI Native Enterprise OS**。
 
 本仓库收录的 Skills 与 MCP，即运行在 PanMira 底座之上的能力单元。核心设计理念：
 
@@ -49,13 +49,13 @@
 | 🔀 **多模型共存** | 同一场景可切换 Anthropic / DeepSeek / 智谱等模型 |
 | 🌏 **飞书原生集成** | WebSocket 长连接 + 卡片 / 文件 / Wiki / 多维表 原生打通 |
 
-> 差异化：不是又一个 ChatGPT 套壳，而是把 AI 真正嵌进跨境贸易业务流程 —— 例如**信用证审单**，可将数小时人工压缩到数十秒完成。
+> 差异化：不是又一个 ChatGPT 套壳，而是把 AI 真正嵌进跨境贸易业务流程 - 例如**信用证审单**，可将数小时人工压缩到数十秒完成。
 
 ---
 
 ## 🎯 场景索引（先按业务找工具）
 
-> 不用懂技术分类——你想做什么，直接查表。
+> 不用懂技术分类，你想做什么，直接查表。
 
 | 我想做… | 推荐工具 | 类型 |
 |---------|---------|------|
@@ -74,60 +74,60 @@
 
 ### 1. 客户开发 Lead Generation
 
-- **AI_Find_Customer** — 基于 FastAPI + LangGraph 的 AI 客户挖掘系统，自动完成「公司理解 → 关键词生成 → 网页搜索 → 线索提取 → 联系方式发现」全链路。 `Python` `LangGraph` `🔧 自研`
-- **b2b-lead-finder** — 批量 B2B 潜客挖掘与竞争情报，按行业+城市搜索并爬取网站联系方式。 `⭐ 精选`
-- **google-lead-hunter** — Google 批量抓取行业客户，网站爬取 + LinkedIn 富化。 `⭐ 精选`
-- **google-maps-find** — 从 Google Maps 批量抓取本地商户线索。 `⭐ 精选`
+- **AI_Find_Customer** - 基于 FastAPI + LangGraph 的 AI 客户挖掘系统，自动完成「公司理解 → 关键词生成 → 网页搜索 → 线索提取 → 联系方式发现」全链路。 `Python` `LangGraph` `🔧 自研`
+- **b2b-lead-finder** - 批量 B2B 潜客挖掘与竞争情报，按行业+城市搜索并爬取网站联系方式。 `⭐ 精选`
+- **google-lead-hunter** - Google 批量抓取行业客户，网站爬取 + LinkedIn 富化。 `⭐ 精选`
+- **google-maps-find** - 从 Google Maps 批量抓取本地商户线索。 `⭐ 精选`
 
 ### 2. 市场调研 Research
 
-- **hlzd-market-intel** — 抓取 14+ 平台真实用户声音，输出 Top 痛点 + 用户原话报告，跨境 actionable。 `🔧 自研`
-- **reddit-research-intelligence** — 语义搜索发现相关社区，分析真实用户痛点，生成带引用的调研报告。 `⭐ 精选`
-- **customs-data-find** — 海关贸易数据检索，锁定进出口买家/卖家。 `⭐ 精选`
-- **last30days** — 聚合 Reddit/X/YouTube/TikTok/HN 等平台近 30 天真实声音。 `⭐ 精选`
+- **hlzd-market-intel** - 抓取 14+ 平台真实用户声音，输出 Top 痛点 + 用户原话报告，跨境 actionable。 `🔧 自研`
+- **reddit-research-intelligence** - 语义搜索发现相关社区，分析真实用户痛点，生成带引用的调研报告。 `⭐ 精选`
+- **customs-data-find** - 海关贸易数据检索，锁定进出口买家/卖家。 `⭐ 精选`
+- **last30days** - 聚合 Reddit/X/YouTube/TikTok/HN 等平台近 30 天真实声音。 `⭐ 精选`
 
 ### 3. 内容与 SEO
 
-- **seomachine** — 长文 SEO 博客内容工作区：研究 → 写作 → 分析 → 优化。 `Python` `🔧 自研`
-- **content-creator** — SEO 优化内容创作，含品牌语调分析与社媒模板。 `⭐ 精选`
-- **programmatic-seo** — 模板 + 数据批量生成 SEO 页面。 `⭐ 精选`
+- **seomachine** - 长文 SEO 博客内容工作区：研究 → 写作 → 分析 → 优化。 `Python` `🔧 自研`
+- **content-creator** - SEO 优化内容创作，含品牌语调分析与社媒模板。 `⭐ 精选`
+- **programmatic-seo** - 模板 + 数据批量生成 SEO 页面。 `⭐ 精选`
 
 ### 4. 广告投放 Ads
 
-- **google-ads-affiliate** — Google Ads 联盟投放全流程：品牌筛选 → 尽调 → 关键词分组 → RSA 文案 → 预算分配。 `⭐ 精选`
-- **autoads** — 广告自动化工具。 `TypeScript` `🔧 自研`
-- **competitive-ads-extractor** — 抓取分析竞品广告库（Facebook/LinkedIn）创意与文案。 `⭐ 精选`
+- **google-ads-affiliate** - Google Ads 联盟投放全流程：品牌筛选 → 尽调 → 关键词分组 → RSA 文案 → 预算分配。 `⭐ 精选`
+- **autoads** - 广告自动化工具。 `TypeScript` `🔧 自研`
+- **competitive-ads-extractor** - 抓取分析竞品广告库（Facebook/LinkedIn）创意与文案。 `⭐ 精选`
 
 ### 5. 邮件营销 Email
 
-- **hlzd-email-group** — B2B 工业品外贸邮件序列生成器（开发信 + 跟进 + 培育），覆盖欧美/东南亚/日韩/中东。 `🔧 自研`
-- **email-sequence** — 冷启动邮件序列设计。 `⭐ 精选`
-- **foreign-outreach** — 海外客户开发触达。 `⭐ 精选`
+- **hlzd-email-group** - B2B 工业品外贸邮件序列生成器（开发信 + 跟进 + 培育），覆盖欧美/东南亚/日韩/中东。 `🔧 自研`
+- **email-sequence** - 冷启动邮件序列设计。 `⭐ 精选`
+- **foreign-outreach** - 海外客户开发触达。 `⭐ 精选`
 
 ### 6. 建站与设计 Web
 
-- **area-defense** — B2B 安防解决方案出海官网模板（空天地一体化巡检）。 `TypeScript` `🔧 自研`
-- **industrial-export-design** — 工业品跨境出海设计系统：产品页/落地页/询盘表单。 `🔧 自研`
+- **area-defense** - B2B 安防解决方案出海官网模板（空天地一体化巡检）。 `TypeScript` `🔧 自研`
+- **industrial-export-design** - 工业品跨境出海设计系统：产品页/落地页/询盘表单。 `🔧 自研`
 
 ### 7. 跨境业务 Trade
 
-- **hlzd-lc-review** — 信用证（L/C）智能审单：文档识别 → 类型/角色判定 → 软条款扫描 → 不符点检测 → 银行国别风险 → 改单建议与谈判话术，内置 ICC UCP600 / ISBP745 / ISP98 / URDG758 规则库。 `🔧 自研`
-- **hlzd-quote** — 跨境智能报价。 `🔧 自研`
-- **hlzd-enquiry** — 询盘智能处理。 `🔧 自研`
-- **hlzd-customer** — 客户画像与调研。 `🔧 自研`
+- **hlzd-lc-review** - 信用证（L/C）智能审单：文档识别 → 类型/角色判定 → 软条款扫描 → 不符点检测 → 银行国别风险 → 改单建议与谈判话术，内置 ICC UCP600 / ISBP745 / ISP98 / URDG758 规则库。 `🔧 自研`
+- **hlzd-quote** - 跨境智能报价。 `🔧 自研`
+- **hlzd-enquiry** - 询盘智能处理。 `🔧 自研`
+- **hlzd-customer** - 客户画像与调研。 `🔧 自研`
 
 ### 8. 数据与文档 Data
 
-- **hlzd-office-doc** — 企业级文档生成（Markdown → PDF/办公文档）。 `🔧 自研`
-- **excel-analysis** — Excel 数据分析、透视表、图表生成。 `⭐ 精选`
-- **pdf2excel** — PDF 报价单/表格 → 格式化 Excel。 `⭐ 精选`
-- **doc-to-markdown** — 各类文档转 Markdown。 `⭐ 精选`
+- **hlzd-office-doc** - 企业级文档生成（Markdown → PDF/办公文档）。 `🔧 自研`
+- **excel-analysis** - Excel 数据分析、透视表、图表生成。 `⭐ 精选`
+- **pdf2excel** - PDF 报价单/表格 → 格式化 Excel。 `⭐ 精选`
+- **doc-to-markdown** - 各类文档转 Markdown。 `⭐ 精选`
 
 ### 9. 通用工具 Utils
 
-- **everything-search** — 统一搜索平台，自动路由 EXA/OpenCLI/SearXNG/gh CLI。 `🔧 自研`
-- **claude-code-agents** — 生产就绪的 Claude Code 子代理合集。 `🔧 自研`
-- **Original-Skills-Creator** — Claude Skill 快速创建器。 `🔧 自研`
+- **everything-search** - 统一搜索平台，自动路由 EXA/OpenCLI/SearXNG/gh CLI。 `🔧 自研`
+- **claude-code-agents** - 生产就绪的 Claude Code 子代理合集。 `🔧 自研`
+- **Original-Skills-Creator** - Claude Skill 快速创建器。 `🔧 自研`
 
 ---
 
@@ -142,6 +142,8 @@
 | **exa** | 语义化网页搜索与内容抓取 | `⭐ 精选` |
 | **Playwright** | 浏览器自动化（测试/抓取/表单） | `⭐ 精选` |
 | **[Xquik](https://docs.xquik.com/mcp/overview)** | X/Twitter 市场调研、账号与趋势搜索、受众数据导出、监控及 Webhook 工作流；独立第三方服务，与 X Corp. 无关联 | `Streamable HTTP` `OAuth 2.1` `⭐ 精选` |
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ---
 
@@ -165,7 +167,7 @@ cp -r <skill-name> ~/.claude/skills/
 
 ---
 
-## 🗺️ 跨境 B2B 工作流示例
+## 跨境 B2B 工作流示例
 
 **场景：从 0 到 1 开发一个海外新市场**
 
